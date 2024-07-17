@@ -6,7 +6,7 @@ This project is based on digikey's TinyML course using STM32 CUBE AI.
 
 The development target is stm32F769i disco board and built based on STM32CubeMX and STM32CubeIDE.  
 
-**--Program version--**  
+**--STM32 Program Version--**  
 STM32CUBE F7 v1.17.1  
 STM32CUBE IDE 1.15.1  
 X-CUBE-AI 9.0.0
@@ -38,10 +38,11 @@ STM32_AI_Sinewave
 ├─ X-CUBE-AI
 │  ├─ App ------------------------ AI data file created with CUBE MX
 │  └─ LICENSE.txt
-└─ sine_model.tflite ------------- AI Model file
+├─ Sin_Wave.ipynb ---------------- Jupyter notebook AI model file 
+└─ sine_model.tflite ------------- tflite file
 ```
 
-## AI model information used  
+## AI Model Information  
 
 (It is my first deep learning model. :sweat_smile:)  
 
